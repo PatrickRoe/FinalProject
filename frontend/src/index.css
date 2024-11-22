@@ -1,0 +1,21 @@
+/* index.css */
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  @apply font-sans text-black bg-white dark:text-white dark:bg-dark-gray;
+}
+
+a {
+  @apply text-black dark:text-white;
+}
+
+button {
+  @apply text-black dark:text-white;
+}
